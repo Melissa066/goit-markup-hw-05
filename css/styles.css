@@ -845,14 +845,6 @@ button {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port-link:hover p {
-
-    transform: translateY(0);
-}
-.port-link:focus p {
-
-    transform: translateY(0);
-}
 
 img {
 
@@ -863,4 +855,10 @@ img {
 .portf-link {
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portf-link:hover .app-storage 
+.portf-link:hover .app-storage {
+
+    transform: translateY(0%);
 }
