@@ -845,12 +845,12 @@ button {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-container:hover p {
+.port-link:hover p {
 
     transform: translateY(0);
 }
-.card-container:focus p {
-    
+.port-link:focus p {
+
     transform: translateY(0);
 }
 
