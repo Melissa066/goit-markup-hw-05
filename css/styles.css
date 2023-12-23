@@ -123,6 +123,7 @@ img {
 .link {
     text-decoration: none;
     display: block;
+    
 }
 
 .link:hover {
@@ -165,6 +166,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--dark-blue);
     text-decoration: none;
+    
 }
 
 .index:hover {
@@ -772,12 +774,16 @@ background-color: #404bbf;
 .abs-link::after {
 
     content: "";
+    display: block;
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
+    width: 48px;
     background-color: #404bbf;
     border-radius: 2px;
+    color:#404bbf;
+
 }
 
 .port-link {
