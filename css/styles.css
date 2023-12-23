@@ -850,6 +850,7 @@ button {
     transform: translateY(0);
 }
 .card-container:focus p {
+    
     transform: translateY(0);
 }
 
